@@ -7,8 +7,6 @@ import tensorflow as tf
 import torch
 import torchvision
 
-Projection = namedtuple('Projection', 'name out_of_sample')
-
 
 ATTACKS = (
     'fgsm',
