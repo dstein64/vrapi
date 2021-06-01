@@ -2,9 +2,10 @@
 
 <img src="example.png?raw=true" width="480"/>
 
-This repository contains the code for *Visualizing Representations of Adversarially Perturbed
-Inputs*, our paper that proposes a metric for evaluating 2D dimensionality reduction algorithms
-for visualizing the representations of adversarially perturbed inputs.
+This repository contains the code for [Visualizing Representations of Adversarially Perturbed
+Inputs](https://arxiv.org/abs/2105.14116), our paper that proposes a metric for evaluating 2D
+dimensionality reduction algorithms for visualizing the representations of adversarially perturbed
+inputs.
 
 Reported running times are approximate, intended to give a general idea of how long each step will
 take. Estimates are based on times encountered while developing on Ubuntu 20.10 with hardware that
@@ -83,4 +84,17 @@ python3 src/score.py
 
 ```shell
 python3 src/visualize.py
+```
+
+### Citation
+
+```
+@misc{steinberg2021visualizing,
+      title={Visualizing Representations of Adversarially Perturbed Inputs},
+      author={Daniel Steinberg and Paul Munro},
+      year={2021},
+      eprint={2105.14116},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
