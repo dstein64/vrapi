@@ -1,6 +1,6 @@
 # vrapi
 
-<img src="example.png?raw=true" width="480"/>
+<img src="example.png?raw=true" width="450"/>
 
 This repository contains the code for [Visualizing Representations of Adversarially Perturbed
 Inputs](https://arxiv.org/abs/2105.14116), our paper that proposes a metric for evaluating 2D
